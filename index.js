@@ -41,6 +41,7 @@ let leashDog=function (dogName, dogBreed){
 	
 	
 	function exerciseDog(dogName, dogBreed) {
+	  for (let i=0; i<routine.length; i++){
 	  array.push(routine[i](dogName, dogBreed));
-
+}
 	}
