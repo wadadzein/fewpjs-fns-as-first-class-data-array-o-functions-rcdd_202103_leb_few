@@ -2,7 +2,7 @@
 	let dogBreed= ("the poodle");
 	
 	
-	let wakeDog =function (dogName, dogBreed) {
+	let wakeDog =function (dogName="Byron", dogBreed) {
 	 console.log (`Wake ${dogName} the ${dogBreed}`);
   return `Wake ${dogName} the ${dogBreed}`;
 	}
