@@ -40,7 +40,6 @@ let leashDog=function (dogName, dogBreed){
 	let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 	
 	function exerciseDog(dog, breed){
-	  return routine.map(fn=>fn(dog,breed))
-	}
+	  return routine.map(fn=>fn(dog,breed));
 	}
 	
